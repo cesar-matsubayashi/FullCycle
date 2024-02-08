@@ -1,0 +1,33 @@
+Domain Driven Design
+
+Foco no domínio (coração) do software
+Deve ser aplicado para projetos complexos
+Muitas áreas, regras de negócios e contextos
+
+Domínio - função principal
+    Problema que precisa resolver
+
+
+Subdomínio - partes que agregam 
+    apoiam o domínio
+    ex: centro de distribuição, contabilidade
+
+
+
+Linguagem universal entre os envolvidos, entre cada área
+
+Bounded context
+    Divisão dentro de um domínio
+
+
+Context Mapping
+    Parceria - dois contextos trabalhando juntos
+    Cliente / Fornecedor - um contexto precisa de dados de outro (D - downstream) e outro disponibiliza o serviço (U - upstream)
+    Conformista - parecido com o cliente/fornecedor, mas o que seria o fornecedor tem controle total de como ele disponibiliza o serviço
+
+    ACL - Anticorruption layer, é uma interface entre um contexto e outro
+
+https://github.com/ddd-crew/context-mapping
+
+Entidades
+    

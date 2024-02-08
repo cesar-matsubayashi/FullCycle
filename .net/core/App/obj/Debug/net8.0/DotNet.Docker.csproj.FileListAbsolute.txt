@@ -1,0 +1,14 @@
+/usr/src/app/App/bin/Debug/net8.0/DotNet.Docker
+/usr/src/app/App/bin/Debug/net8.0/DotNet.Docker.deps.json
+/usr/src/app/App/bin/Debug/net8.0/DotNet.Docker.runtimeconfig.json
+/usr/src/app/App/bin/Debug/net8.0/DotNet.Docker.dll
+/usr/src/app/App/bin/Debug/net8.0/DotNet.Docker.pdb
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfoInputs.cache
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.AssemblyInfo.cs
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.dll
+/usr/src/app/App/obj/Debug/net8.0/refint/DotNet.Docker.dll
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.pdb
+/usr/src/app/App/obj/Debug/net8.0/DotNet.Docker.genruntimeconfig.cache
+/usr/src/app/App/obj/Debug/net8.0/ref/DotNet.Docker.dll

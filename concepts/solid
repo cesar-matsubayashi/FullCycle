@@ -1,0 +1,18 @@
+Single Responsability Principle
+    - Classes devem ter um único motivo
+
+Open Closed Principle
+    - Toda classe deve ser aberta para extensão mas fechada para modificação
+
+Liskov Substitution Principle
+    - Subclasses podem ser substituídas por suas classes pai
+
+Interface Segregation Principle
+    - Uma classe não é obrigatória a implementar interfaces que ela não utilizará
+    - Segrega o método não utilizado 
+        implements Movie
+        implements Movie, AudioControl
+
+Dependecy Inversion Principle
+    - Dependa de abstração e não implementação
+    
