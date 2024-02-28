@@ -1,3 +1,5 @@
+import Product from "./product";
+
 export default class OrderItem {
     private _id: string;
     private _productId: string;
@@ -35,5 +37,12 @@ export default class OrderItem {
 
     orderItemTotal(): number {
         return this._price * this._quantity;
+    }
+
+    changeItem(product: Product, quantity: number){
+        this._name = product.name;
+        this._price = product.price;
+        this._productId = product.id;
+        this._quantity = quantity;
     }
 }

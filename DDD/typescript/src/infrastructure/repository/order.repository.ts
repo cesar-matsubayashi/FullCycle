@@ -25,7 +25,32 @@ export default class OrderRepository implements OrderRepositoryInterface {
   }
 
   async update(entity: Order): Promise<void> {
-    throw Error("Method not implemented."); 
+    await OrderModel.update({
+      customer_id: entity.customerId,
+      total: entity.total(),
+    },
+      {
+        where: {
+          id: entity.id
+        }
+      },
+    );
+    
+    entity.items.forEach(item => {
+       OrderItemModel.update({
+        name: item.name,
+        price: item.price,
+        product_id: item.productId,
+        quantity: item.quantity,
+      },
+      {
+        where: {
+          id: item.id
+        }
+      })
+    });
+  
+
   }
 
   async find(id: string): Promise<Order> {
